@@ -1,0 +1,31 @@
+{
+	"name" : "Multi Copy and Paste",
+	"version" : "1.0.0",
+	"description" : "Automatic multi copy and paste",
+	"background" : {
+		"scripts" : ["src/background.js"],
+		"persistent" : false
+	},
+	"content_scripts" : [{
+		"matches": ["https://*/*"],
+		"js": ["src/onCopy.js"]
+	}],
+	"icons": { 
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png" 
+	},
+	"permissions": [
+		"activeTab",
+		"storage",
+		"clipboardWrite"
+	],
+	"browser_action": {
+		"default_icon": {
+			"19": "icon.png",
+			"38": "icon.png"
+		},
+		"default_popup": "src/popup/index.html"
+	},
+	"manifest_version": 2
+}

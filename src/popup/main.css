@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+	width: 300px;
+}
+
+.popup__header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.popup__title{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.popup__clearAll{
+	color: white;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.popup__main{
+	background-color: #f4f4f4;
+	padding: 10px;
+}
+
+.popup__item{
+	border: 1px solid grey;
+	padding: 10px;
+	overflow: hidden;
+	margin: 10px 0;
+	cursor: pointer;
+}

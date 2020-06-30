@@ -1,0 +1,23 @@
+{
+  "name": "copy_extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgm793/CopyExtension.git"
+  },
+  "keywords": [
+    "copy",
+    "paste"
+  ],
+  "author": "mgm793",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgm793/CopyExtension/issues"
+  },
+  "homepage": "https://github.com/mgm793/CopyExtension#readme"
+}
